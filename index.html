@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Push-Ups</title>
+  <meta name="description" content="A push-ups counter with graphical representation.">
+  <meta name="keywords" content="push-ups, counter, app">
+  <meta name="robots" content="index,follow">
+  <meta name="author" content="Ryan Els">
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main>
+    <header><span>Push-Ups</span><img src="icon.png" alt="icon" id="reset"></header>
+    <div id="top">
+      <div id="canvasOuter">
+        <div id="canvasBox"></div>
+      </div>
+    </div>
+      <div id="inputBox">
+        <button type="button" id="clear">C</button>
+        <button type="button" id="input">Add Count</button>
+        <button type="button" id="plus">+</button>
+      </div>
+      <div id="buttonBox" data-open="closed">
+        <button type="button" id="0">0</button>
+        <button type="button" id="1">1</button>
+        <button type="button" id="2">2</button>
+        <button type="button" id="3">3</button>
+        <button type="button" id="4">4</button>
+        <button type="button" id="5">5</button>
+        <button type="button" id="6">6</button>
+        <button type="button" id="7">7</button>
+        <button type="button" id="8">8</button>
+        <button type="button" id="9">9</button>
+      </div>
+  </main>
+  
+  <script src="app.js" type="module"></script>
+  <script src="chart.min.js" defer></script>
+</body>
+</html>
